@@ -71,7 +71,12 @@ backend webcam
         reqrep ^([^\ :]*)\ /webcam/(.*)     \1\ /\2
         server webcam1  127.0.0.1:8080
 ```
-This will make OctoPrint accessible under http://<your Raspi's IP>/ and make mjpg-streamer accessible under http://<your Raspi's IP>/webcam/. You'll also need to modify /etc/default/haproxy and enable HAProxy by setting ENABLED to 1. After that you can start HAProxy by issuing the following command
+This will make OctoPrint accessible under http://<your Raspi's IP>/ and make mjpg-streamer accessible under http://<your Raspi's IP>/webcam/.
+
+You'll also need to modify /etc/default/haproxy and enable HAProxy by setting ENABLED to 1.
+
+After that you can start HAProxy by issuing the following command
+
 '''
 sudo service haproxy start
 '''
