@@ -7,4 +7,4 @@
 
 ## Prepare For MegaPi
  * Use this to define additional glob patterns matching serial ports to list for connecting against, e.g. /dev/ttyAMA*. One entry per line.
- * ![image](https://github.com/xeecos/OctoPrintRpi/raw/master/images/1.jpg)
+ * ![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/1.jpg)
