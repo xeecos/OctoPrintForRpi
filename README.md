@@ -1,5 +1,5 @@
 # OctoPrint For MegaPi with Raspberry Pi
-![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/5.jpg)
+![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/4.jpg)
  * Checkout OctoPrint: git clone https://github.com/foosel/OctoPrint.git
  * Change into the OctoPrint folder:cd OctoPrint
  * Install OctoPrint: python setup.py install
@@ -85,3 +85,7 @@ Pointing your browser to http://<your Raspi's IP> should greet you with OctoPrin
 Now open the settings and switch to the webcam tab. 
 
 Set the webcam's stream URL from http://<your Raspi's IP>:8080/?action=stream to /webcam/?action=stream and reload the page.
+
+![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/5.jpg)
+
+![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/3.jpg)
