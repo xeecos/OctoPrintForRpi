@@ -75,4 +75,8 @@ This will make OctoPrint accessible under http://<your Raspi's IP>/ and make mjp
 '''
 sudo service haproxy start
 '''
-Pointing your browser to http://<your Raspi's IP> should greet you with OctoPrint's UI. Now open the settings and switch to the webcam tab or alternatively open ~/.octoprint/config.yaml. Set the webcam's stream URL from http://<your Raspi's IP>:8080/?action=stream to /webcam/?action=stream (leave the snapshotUrl at http://127.0.0.1:8080/?action=snapshot!) and reload the page.
+Pointing your browser to http://<your Raspi's IP> should greet you with OctoPrint's UI. 
+
+Now open the settings and switch to the webcam tab. 
+
+Set the webcam's stream URL from http://<your Raspi's IP>:8080/?action=stream to /webcam/?action=stream and reload the page.
