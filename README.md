@@ -9,7 +9,7 @@
 ## Prepare For MegaPi
  * Use this to define additional glob patterns matching serial ports to list for connecting against, e.g. /dev/ttyAMA*. One entry per line.
  ![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/1.jpg)
- * mGiraffe 3D Printer Kit
+ * [mGiraffe 3D Printer Kit](http://www.makeblock.cc/mgiraffe-3d-printer-kit)
  [![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/6.jpg)](http://www.makeblock.cc/mgiraffe-3d-printer-kit/)
  
 ## Webcam
