@@ -34,7 +34,7 @@ Setup on Raspbian is as follows:
 ```
 sudo apt-get install haproxy
 ```
-Edit /etc/haproxy/haproxy.cfg, for further examples take a look ![here](https://github.com/foosel/OctoPrint/wiki/Reverse-proxy-configuration-examples#haproxy):
+Edit /etc/haproxy/haproxy.cfg, for further examples take a look [here](https://github.com/foosel/OctoPrint/wiki/Reverse-proxy-configuration-examples#haproxy):
 ```
 global
         maxconn 4096
