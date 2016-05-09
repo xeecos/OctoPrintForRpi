@@ -75,18 +75,14 @@ backend webcam
 ```
 This will make OctoPrint accessible under http://<your Raspi's IP>/ and make mjpg-streamer accessible under http://<your Raspi's IP>/webcam/.
 
-You'll also need to modify /etc/default/haproxy and enable HAProxy by setting ENABLED to 1.
-
-After that you can start HAProxy by issuing the following command
-
-'''
+ * You'll also need to modify /etc/default/haproxy and enable HAProxy by setting ENABLED to 1.
+ * After that you can start HAProxy by issuing the following command
+```
 sudo service haproxy start
-'''
-Pointing your browser to http://<your Raspi's IP> should greet you with OctoPrint's UI. 
-
-Now open the settings and switch to the webcam tab. 
-
-Set the webcam's stream URL from http://<your Raspi's IP>:8080/?action=stream to /webcam/?action=stream and reload the page.
+```
+ * Pointing your browser to http://<your Raspi's IP> should greet you with OctoPrint's UI. 
+ * Now open the settings and switch to the webcam tab. 
+ * Set the webcam's stream URL from http://<your Raspi's IP>:8080/?action=stream to /webcam/?action=stream and reload the page.
 
 ![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/5.jpg)
 
