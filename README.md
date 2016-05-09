@@ -1,5 +1,6 @@
 # OctoPrint For MegaPi with Raspberry Pi
 ![image](https://github.com/xeecos/OctoPrintForRpi/raw/master/images/4.jpg)
+![image](https://camo.githubusercontent.com/a4c15a0cf4ab01e3a02b8795fe2ae4df60c30fd0/687474703a2f2f692e696d6775722e636f6d2f6446336e6f46702e706e67)
  * Checkout OctoPrint: git clone https://github.com/foosel/OctoPrint.git
  * Change into the OctoPrint folder:cd OctoPrint
  * Install OctoPrint: python setup.py install
